@@ -10,12 +10,8 @@ class ProsCons extends PureComponent {
         this.props.getCredentials();
     }
 
-
-
     render() {
         const { userId, groupId } = this.props.auth;
-
-        console.log('this.props', this.props);
 
         return (
             <div className="container">

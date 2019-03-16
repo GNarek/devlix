@@ -17,7 +17,6 @@ class FormItem extends PureComponent {
     };
 
     _handleClick = () => {
-        console.log('this.state.value', this.state.value);
         this.props.onSubmit(this.state.value);
     };
 

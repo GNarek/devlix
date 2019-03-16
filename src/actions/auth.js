@@ -32,7 +32,6 @@ export function getCredentials() {
 function getUserId() {
     const url = `${config.baseUrl}/user/${config.userName}`;
 
-        console.log('called 2');
     return axios.get(url);
 }
 

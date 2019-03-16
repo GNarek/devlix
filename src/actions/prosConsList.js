@@ -33,7 +33,6 @@ export function getProsConsList(groupId, userId) {
                     //TODO: handle error
                     console.error(error);
                 }
-
             });
     };
 };

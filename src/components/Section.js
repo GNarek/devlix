@@ -42,13 +42,10 @@ class Section extends PureComponent {
     }
 
     _handleEdit = (i, itemType, value) => {
-        console.log('value', value);
         const {groupId, userId, prosConsList} = this.props;
         const updatedTypeData = [...prosConsList[itemType]];
 
         updatedTypeData[i] = value;
-
-        console.log('updatedTypeData', updatedTypeData);
 
         const newData = {
             ...prosConsList,
@@ -60,8 +57,6 @@ class Section extends PureComponent {
 
     render() {
         const { pros, cons } = this.props.prosConsList;
-
-        console.log('this.props', this.props);
 
         return (
             <div className="wrapper">
