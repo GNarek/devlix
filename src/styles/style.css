@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper {
+    width: 70%;
+    border: 1px solid #000;
+    display: flex;
+}
+.listWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.list {
+    flex: 1;
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.listTitle {
+    text-transform: capitalize;
+    margin-left: 16px;
+}
+.flex_center {
+    display: flex;
+    justify-content: space-between;
+}
+.listItem {
+    padding: 8px;
+    background: #ccc;
+    margin: 5px;
+}
+.create_section {
+    margin: 20px 5px 5px 5px;
+    padding: 8px;
+    background: #eee;
+}
+.actions {
+
+}
+
+.button {
+    cursor: pointer;
+}
+.button-remove {
+    background: #f55;
+}
+.button-create {
+    background: #5f5;
+}
