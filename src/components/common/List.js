@@ -26,7 +26,7 @@ class List extends PureComponent {
             <div className="listWrapper">
                 <h3 className="listTitle">{this.props.type}</h3>
                 <div className="list">
-                    <div>
+                    <div className="listContainer">
                         {
                             this.props.data.map((item, i) => (
                                 <ListItem
